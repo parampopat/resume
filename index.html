@@ -8,3 +8,61 @@
     <iframe src="https://docs.google.com/gview?url=https://github.com/parampopat/resume/raw/master/Param_Popat%20-%20Resume.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+a.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a.button:hover span {
+  padding-right: 25px;
+}
+
+a.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<a href="http://google.com" class="button">Resume</a>
+<a href="http://google.com" class="button">Resume</a>
+<a href="http://google.com" class="button">Resume</a>
+
+<!-- <button class="button" style="vertical-align:middle"><span>Bosch </span></button> -->
+<!-- <button class="button" style="vertical-align:middle"><span>Resume </span></button> -->
+<!-- <button class="button" style="vertical-align:middle"><span>Nirma </span></button> -->
+
+</body>
+</html>
+
