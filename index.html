@@ -2,13 +2,30 @@
 <html>
 <head>
 <style>
+html {
+			background: #B9D9EB;
+			font-family: 'Verdana', serif;
+		}
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #6CB4EE;
+  color: white;
+  font-size: 25px;
+  font-family: Arial;
+  border-radius: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
 a.button {
   display: flex;
-  justify-content: center; 
-  border-radius: 4px;
-  background-color: ##727272;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #FFFFFF;
   border: none;
-  color: #FFFFFF;
+  color: #000080;
   text-align: center;
   font-size: 28px;
   padding: 20px;
@@ -45,11 +62,15 @@ a.button:hover span:after {
 </style>
 </head>
 <body>
-
-<a href="https://parampopat.github.io/resume/bosch.html" class="button">Bosch</a>
-<a href="https://parampopat.github.io/resume/resume.html" class="button">Resume</a>
-<a href="https://parampopat.github.io/resume/nirma.html" class="button">Nirma</a>
-
+<div class="header">
+  <a style="text-decoration:none; color: white;" href="https://www.github.com/parampopat/"><h1>Param Popat</h1></a>
+</div>
+<p>
+<div class="flex-container">
+<a style="text-decoration:none" href="https://parampopat.github.io/resume/bosch.html" class="button">Bosch</a>
+<a style="text-decoration:none" href="https://parampopat.github.io/resume/resume.html" class="button">Résumé</a>
+<a style="text-decoration:none" href="https://parampopat.github.io/resume/nirma.html" class="button">Nirma</a>
+</div>
 </body>
 </html>
 
